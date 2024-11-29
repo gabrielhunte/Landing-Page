@@ -1,0 +1,144 @@
+*{
+    margin: 0px;
+    font-family: "inter";
+}
+
+#logo{
+    margin-left: 75px;
+    margin-top: 45px;
+}
+
+#titulo-menu-superior{
+    margin-left: 170px;
+    margin-top: 75px ;
+}
+
+#texto-menu-superior{
+    margin-left: 170px;
+    margin-top: 25px;
+    padding-bottom: 100px;
+}
+
+#menusuperior{
+    background-image: url(imagem/menu-superio.svg);
+    color: white;
+}
+
+#menuinformacional{
+    background: #EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.icone{
+    margin: 50px 0px 50px 100px;
+    padding: 25px;
+}
+
+.textoinformativo{
+    display: flex;
+    align-items: center;
+}
+
+#secaovideo{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#titulovideo{
+    margin-top: 50px;
+    color:#247BA0;    
+}
+
+#video{
+    margin: 50px 0px 50px 100px;
+}
+
+#carrossel{
+    background-color: #247BA0;
+    padding: 50px;
+
+}
+
+#titulo-carrossel{
+    color: #EAECE5;
+    text-align: center;
+    font-size: 30px;
+}
+
+#div-cards{
+    display: grid;
+    grid-auto-flow:column;
+    margin-top: 30px;
+}
+
+.cards{
+    margin-left: 50px;
+}
+
+#seta-esquerda{
+    display: none;
+}
+
+#samantha{
+    display: none;
+}
+
+.seta{
+    cursor: pointer;
+}
+
+.seta:hover{
+transform: translateY(-7px);
+transition-duration: 0.5s;
+}
+
+#seta-esquerda{
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+#seta-direita{
+    margin-top: 45px;
+}
+
+#formulario{
+    text-align: center;
+}
+
+#titulo-formulario{
+    font-size: 30px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+input{
+    Width: 350px;
+    Height:40px;
+    background-color: #EAECE5;
+    border-radius: 8px;
+    border: 0px;
+    margin: 10px;
+}
+
+button{
+    background-color: #247BA0;
+    height: 40px;
+    width: 300px;
+    border: 0px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+    color: #FFFFFF;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #4b8daa;
+    color: white;
+    transform: translateY(-5px); 
+    box-shadow: 0px 15px 20px  #2d5566 ;
+    transition-duration: 0.5s;
+}
